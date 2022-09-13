@@ -1,0 +1,98 @@
+[
+  {
+    "Name": "ВШЭ",
+    "Image": "Resources/Images/HSE.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/hse/index.html",
+    "Rating": 2
+  },
+  {
+    "Name": "МИРЭА",
+    "Image": "Resources/Images/MIREA.png",
+    "StudyDirectionsUrl": "http://admlist.ru/mirea/index.html",
+    "Rating": 10
+  },
+  {
+    "Name": "ИТМО",
+    "Image": "Resources/Images/ITMO.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/itmo/index.html",
+    "Rating": 1
+  },
+  {
+    "Name": "МАИ",
+    "Image": "Resources/Images/MAI.png",
+    "StudyDirectionsUrl": "http://admlist.ru/mai/index.html",
+    "Rating": 16
+  },
+  {
+    "Name": "МЭИ",
+    "Image": "Resources/Images/MEI.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/mei/index.html",
+    "Rating": 9
+  },
+  {
+    "Name": "МФТИ",
+    "Image": "Resources/Images/MFTI.png",
+    "StudyDirectionsUrl": "http://admlist.ru/mipt/index.html",
+    "Rating": 3
+  },
+  {
+    "Name": "МИЭТ",
+    "Image": "Resources/Images/MIET.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/miet/index.html",
+    "Rating": 14
+  },
+  {
+    "Name": "МИФИ",
+    "Image": "Resources/Images/MIFI.png",
+    "StudyDirectionsUrl": "http://admlist.ru/mephi/index.html",
+    "Rating": 4
+  },
+  {
+    "Name": "МИСис",
+    "Image": "Resources/Images/MISis.png",
+    "StudyDirectionsUrl": "http://admlist.ru/misis/index.html",
+    "Rating": 6
+  },
+  {
+    "Name": "Политех",
+    "Image": "Resources/Images/SPbPU.png",
+    "StudyDirectionsUrl": "http://admlist.ru/spbstu/index.html",
+    "Rating": 8
+  },
+  {
+    "Name": "СПбГУ",
+    "Image": "Resources/Images/SPbGU.png",
+    "StudyDirectionsUrl": "http://admlist.ru/spbu/index.html",
+    "Rating": 5
+  },
+  {
+    "Name": "РУДН",
+    "Image": "Resources/Images/RUDN.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/rudn/index.html",
+    "Rating": 15
+  },
+  {
+    "Name": "МГТУ им. Баумана",
+    "Image": "Resources/Images/Baumanka.png",
+    "StudyDirectionsUrl": "http://admlist.ru/bmstu/index.html",
+    "Rating": 7
+  },
+  {
+    "Name": "ВШЭ-Спб",
+    "Image": "Resources/Images/HSE.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/bmstu/index.html",
+    "Rating": 11
+  },
+  {
+    "Name": "ВШЭ-НН",
+    "Image": "Resources/Images/HSE.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/hse-nn/index.html",
+    "Rating": 12
+  },
+  {
+    "Name": "ВШЭ-Пермь",
+    "Image": "Resources/Images/HSE.jpg",
+    "StudyDirectionsUrl": "http://admlist.ru/hse-perm/index.html",
+    "Rating": 13
+  }
+]

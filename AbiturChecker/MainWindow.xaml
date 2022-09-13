@@ -1,0 +1,81 @@
+﻿<Window x:Class="AbiturChecker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbiturChecker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000"
+        MinWidth="1000" MinHeight="450"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="21"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu VerticalAlignment="Top" Grid.Row="0">
+            <MenuItem VerticalAlignment="Top">
+                <MenuItem.Header>Файл</MenuItem.Header>
+                <MenuItem Click="Application_Shutdown">
+                    <MenuItem.Header>Выйти</MenuItem.Header>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="5*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <!--<TextBlock Name="StatemntsCount" Text="Количество поданных заявлений в сумме: Загрузка..." Grid.Column="2" Grid.Row="0"></TextBlock>-->
+                <!--<TextBlock Name="AbiturientsCount" Text="Количество учеников: Загрузка..." Grid.Column="2" Grid.Row="0"></TextBlock>-->
+            </StackPanel>
+            <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Stretch">
+                <TextBlock Name="University" Text="Выберите ВУЗ: " Grid.Column="2" Grid.Row="0" TextAlignment="Center"></TextBlock>
+                <ComboBox Name="UniversitySelect" SelectionChanged="ComboBox_SelectUniversity" VerticalContentAlignment="Center" HorizontalAlignment="Center" IsEnabled="False" Text="000-000-000-00" MinWidth="150" Height="24" Margin="10 10"></ComboBox>
+                <TextBlock Name="DirectionText" Text="Выберите направление: " Grid.Column="2" Grid.Row="0" TextAlignment="Center"></TextBlock>
+                <ComboBox Name="DirectionSelect" SelectionChanged="ComboBox_SelectDirection" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" IsEnabled="False" Text="000-000-000-00" MinWidth="150" Height="24" Margin="10 10"></ComboBox>
+                <TextBlock Name="IdText" Text="Ваш снилс: " Grid.Column="2" Grid.Row="0" TextAlignment="Center"></TextBlock>
+                <TextBox Name="Input" IsEnabled="False" TextAlignment="Center" VerticalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalAlignment="Center" Text="000-000-000-00" Width="150" Height="24" Margin="10 10"></TextBox>
+                <Button  FontSize="20" Name="Accept" IsEnabled="False" Width="100" Cursor="Hand" Click="Button_Accept" Background="LightBlue" Foreground="White">
+                    <Button.Content>
+                        <TextBlock>Готово</TextBlock>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+            <Image Name="Logo" Grid.Column="1" Grid.Row="0" Source="Resources/Images/NothingSelected.png" Margin="10 10"></Image>
+            <Grid Grid.Row="1" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <StackPanel>
+                        <!--<TextBlock VerticalAlignment="Center" Grid.Row="0" TextAlignment="Center" Margin="10" Foreground="DeepSkyBlue">Топ 300 абитуриентов:</TextBlock>-->
+                        <!--<ComboBox VerticalAlignment="Center" SelectionChanged="ComboBox_SelectStudent" IsEnabled="False" Name="Abiturients" Height="24" Width="200"></ComboBox>-->
+                    </StackPanel>
+                </Grid>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Coded by @Ruslan Lyaschenko" TextAlignment="Right" VerticalAlignment="Bottom" Margin="10 10" Foreground="SkyBlue	"></TextBlock>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <StackPanel>
+                        <!--<TextBlock VerticalAlignment="Center" Grid.Row="0" TextAlignment="Center" Margin="10" Foreground="DeepSkyBlue">Топ 300 абитуриентов:</TextBlock>-->
+                        <!--<ComboBox VerticalAlignment="Center" SelectionChanged="ComboBox_SelectStudent" IsEnabled="False" Name="Abiturients" Height="24" Width="200"></ComboBox>-->
+                    </StackPanel>
+                </Grid>
+                <TextBlock Grid.Row="2" TextWrapping="Wrap" Grid.Column="0" Text="По вопросам обращаться на почту ruslan.itpro@gmail.com" TextAlignment="Left" VerticalAlignment="Bottom" Margin="10 10" Foreground="SkyBlue"></TextBlock>
+            </Grid>
+        </Grid>
+    </Grid>
+
+</Window>

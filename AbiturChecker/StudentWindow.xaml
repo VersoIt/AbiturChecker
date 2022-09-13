@@ -1,0 +1,27 @@
+﻿<Window x:Class="AbiturChecker.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbiturChecker.Core"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
+        mc:Ignorable="d"
+        MinWidth="1000" MinHeight="450"
+        WindowStartupLocation="CenterScreen"
+        Title="StudentWindow" Height="450" Width="800">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Name="Header" VerticalAlignment="Center" FontSize="14" TextAlignment="Center" Foreground="CadetBlue">ИТМО - Прикладная информатика</TextBlock>
+        <DataGrid Grid.Row="1" IsReadOnly="True" SelectionMode="Single" SelectionUnit="FullRow" CanUserResizeRows="False" CanUserAddRows="False" CanUserSortColumns="True" LoadingRow="DataGrid_LoadingRow" x:Name="StudentsTable" AutoGenerateColumns="False" HorizontalGridLinesBrush="White" AlternatingRowBackground="White">
+            <DataGrid.Columns>
+                <DataGridTextColumn MinWidth="88" Width="*" Header="Снилс" Binding="{Binding Path=Id}">
+                </DataGridTextColumn>
+                <DataGridTextColumn MinWidth="90" Width="*" Header="Сумма баллов" Binding="{Binding Path=Sum}"/>
+                <DataGridTextColumn MinWidth="140" Width="*" Header="Согласие на зачисление" Binding="{Binding Path=IsAgree}"/>
+            </DataGrid.Columns>
+       </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vQRqy7fclQ1uYlTKBWSgMuHP5xK/KjNjOaNFMHOxe2rnW+ymuRP370UtZY/IvxkssXtb1n9m+2Zup9HDAj60lQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ruslan\\source\\repos\\AbiturChecker\\AbiturChecker\\AbiturChecker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ruslan\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
+    "C:\\Users\\Ruslan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Ruslan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Ruslan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ruslan\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

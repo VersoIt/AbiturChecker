@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbiturChecker.Core.Abstract.ParseLinker&lt;T&gt;">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAECAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Core\Abstract\ParseLinker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbiturChecker.Core.DefaultHtmlLoader">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\DefaultHtmlLoader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbiturChecker.Core.DefaultParseLinker&lt;T&gt;">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\DefaultParseLinker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbiturChecker.Core.UniversityParseLinker&lt;T&gt;">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UniversityParseLinker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbiturChecker.Core.Student">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQ=</HashCode>
+      <FileName>Core\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbiturChecker.Core.StudyDirection">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\StudyDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbiturChecker.Core.University">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAFBAACACgAAQAAAAAAIAEoAAAAAIAAAA=</HashCode>
+      <FileName>Core\University.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbiturChecker.Core.ParserSettings" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Core\ParserSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbiturChecker.Core.PopularUniversityParser">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\PopularUniversityParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AbiturChecker.Core.Abstract.IHtmlLoader&lt;T&gt;">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Abstract\IHtmlLoader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbiturChecker.Core.Abstract.IParseable&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Abstract\IParseable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
